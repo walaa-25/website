@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient( to right, #01022d,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image:linear-gradient(to right, #02023c74 30%,#1305346b),
+    url(../image/download.webp);
+    height: 90vh;
+    width: 90%;
+}
+.container:hover{
+    background-image:linear-gradient(to right, #02023c9a 30%,transparent),
+    url(../image/download.webp);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+header p{
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+header ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header a:hover{
+    border-bottom: 3px solid whitesmoke;
+
+}
+.content{
+    width: 40%;
+    color: white;
+    margin-top: 6%;
+    margin-left: 5%;
+    
+    
+}
+.content h2{
+    font-size: 75px;
+    font-weight: 900;
+    margin: 20px;
+}
+.content p{
+    margin: 20px;
+    letter-spacing: 1px;
+    line-height: normal;
+}
+.content button{
+    width: 130px;
+    height: 40px;
+    font-size: 23px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: white;
+    background-color: #02023c;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    letter-spacing: 2px;
+}
